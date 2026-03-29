@@ -4,7 +4,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.tree import DecisionTreeClassifier
 
 # تحميل الداتا
-df = pd.read_csv('/kaggle/input/datasets/nvarisha/drug-classification-dataset/drug200.csv')
+df = pd.read_csv('drug200.csv')
 
 # Encoding
 le_sex = LabelEncoder()
